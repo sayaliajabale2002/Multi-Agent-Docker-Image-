@@ -1,1 +1,3 @@
-# Multi-Agent-Docker-Image-
+# Multi-Agent-Docker-Image
+
+This repository delivers a fully containerized, production-ready deployment of a multi-agent AI pipeline, packing a Streamlit user interface, LangGraph pipeline orchestration, and Google's Gemini LLM into a lightweight **Python 3.11-slim** Docker image. Optimized for zero-configuration deployments, the project exposes port `5000` via a dedicated `Dockerfile` and includes a `docker-compose.yml` service wrapper that manages environment isolation. The pre-built image is hosted publicly on Docker Hub, allowing developers to spin up the entire application locally with a single `docker pull sayali070902/multiagent:tagname` or launch it instantly using `docker-compose up` without needing a local Python runtime or dependency environment setup.
